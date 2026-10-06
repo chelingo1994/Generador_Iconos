@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <!-- .NET 9: funciona en Visual Studio 2022 y 2026. Para otra versión, cambiá solo esta línea. -->
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RollForward>LatestMajor</RollForward>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>GeneradorIconos</RootNamespace>
+    <AssemblyName>GeneradorIconos</AssemblyName>
+  </PropertyGroup>
+
+</Project>

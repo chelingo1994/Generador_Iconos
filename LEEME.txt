@@ -1,0 +1,19 @@
+﻿GENERADOR DE ICONOS CON SUB-ICONOS  (C# - Windows Forms)
+
+Cómo abrirlo
+  - Visual Studio: abrir GeneradorIconos.sln y presionar F5.
+  - Sin Visual Studio: en esta carpeta, ejecutar   dotnet run
+  El proyecto apunta a .NET 9. Si tenés otra versión, cambiá la línea
+  <TargetFramework> del archivo GeneradorIconos.csproj.
+
+Cómo se usa
+  1. "Cargar imágenes…" (o arrastrar los archivos a la ventana). Se pueden cargar varias.
+  2. Ajustar tamaño de salida, posición y tamaño del sub-icono si hace falta.
+  3. "Generar PNG". Por cada imagen salen tres archivos:
+        nombre_agregar.png   nombre_editar.png   nombre_imprimir.png
+     Si ya existen con ese nombre, se reemplazan.
+
+Archivos
+  BadgeRenderer.cs  dibujo de los sub-iconos y armado del PNG (sin dependencias del formulario)
+  MainForm.cs       la ventana
+  Program.cs        punto de entrada
